@@ -1,0 +1,35 @@
+{
+  "name": "it-nelson-backend-srv",
+  "keywords": [
+    "theia-extension"
+  ],
+  "version": "0.0.0",
+  "files": [
+    "lib",
+    "src"
+  ],
+  "dependencies": {
+    "@google-cloud/local-auth": "^2.0.0",
+    "@theia/core": "latest",
+    "@types/node": "latest",
+    "express": "^4.17.1",
+    "googleapis": "^105.0.0",
+    "googleapis-common": "^6.0.0"
+  },
+  "devDependencies": {
+    "rimraf": "latest",
+    "typescript": "latest"
+  },
+  "scripts": {
+    "prepare": "yarn run clean && yarn run build",
+    "clean": "rimraf lib",
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
+  "theiaExtensions": [
+    {
+      "frontend": "lib/browser/it-nelson-backend-srv-frontend-module",
+      "backend": "lib/node/it-nelson-backend-srv-backend-module"
+    }
+  ]
+}

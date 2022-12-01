@@ -1,0 +1,1 @@
+{"version":3,"file":"getLinkComponent.d.ts","sourceRoot":"","sources":["../../src/browser/getLinkComponent.ts"],"names":[],"mappings":";AAeA,MAAM,CAAC,OAAO,UAAU,gBAAgB,CAAC,EACvC,MAAM,EACN,QAAQ,EACR,WAAW,GACZ,EAAE;IACD,MAAM,EAAE,MAAM,CAAC;IACf,QAAQ,EAAE,MAAM,CAAC;IACjB,WAAW,EAAE,MAAM,CAAC;CACrB,GAAG,KAAK,CAAC,aAAa,CAAC,GAAG,CAAC,CAiC3B"}

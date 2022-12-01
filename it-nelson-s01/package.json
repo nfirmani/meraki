@@ -1,0 +1,40 @@
+{
+  "name": "it-nelson-s01",
+  "keywords": [
+    "theia-extension"
+  ],
+  "version": "0.0.0",
+  "files": [
+    "lib",
+    "src"
+  ],
+  "dependencies": {
+    "@theia/core": "latest",
+    "@theia/file-search": "latest",
+    "@theia/filesystem": "latest",
+    "@theia/monaco-editor-core": "latest",
+    "@theia/output": "latest",
+    "@theia/search-in-workspace": "latest",
+    "@theia/toolbar": "latest",
+    "@theia/vsx-registry": "latest",
+    "@theia/workspace": "latest"
+
+
+
+  },
+  "devDependencies": {
+    "rimraf": "latest",
+    "typescript": "latest"
+  },
+  "scripts": {
+    "prepare": "yarn run clean && yarn run build",
+    "clean": "rimraf lib",
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
+  "theiaExtensions": [
+    {
+      "frontend": "lib/browser/it-nelson-s01-frontend-module"
+    }
+  ]
+}

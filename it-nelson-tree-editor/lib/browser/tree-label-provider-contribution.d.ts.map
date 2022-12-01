@@ -1,0 +1,1 @@
+{"version":3,"file":"tree-label-provider-contribution.d.ts","sourceRoot":"","sources":["../../src/browser/tree-label-provider-contribution.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,yBAAyB,EAAE,MAAM,yBAAyB,CAAC;AAKpE,qBACa,6BAA8B,YAAW,yBAAyB;IAE3E,SAAS,CAAC,OAAO,EAAE,MAAM,GAAG,MAAM;IAalC,OAAO,IAAI,MAAM;CAKpB"}

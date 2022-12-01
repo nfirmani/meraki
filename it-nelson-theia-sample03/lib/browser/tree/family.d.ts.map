@@ -1,0 +1,1 @@
+{"version":3,"file":"family.d.ts","sourceRoot":"","sources":["../../../src/browser/tree/family.ts"],"names":[],"mappings":"AAAA,UAAU,MAAM;IACd,IAAI,EAAE,MAAM,CAAC;IACb,OAAO,EAAE,MAAM,EAAE,CAAC;CACnB;AAED,UAAU,MAAM;IACd,SAAS,EAAE,MAAM,CAAC;IAClB,QAAQ,EAAE,MAAM,CAAC;IACjB,QAAQ,CAAC,EAAE,MAAM,EAAE,CAAC;CACrB"}

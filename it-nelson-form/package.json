@@ -1,0 +1,34 @@
+{
+  "name": "it-nelson-form",
+  "keywords": [
+    "theia-extension"
+  ],
+  "version": "0.0.0",
+  "files": [
+    "lib",
+    "src"
+  ],
+  "dependencies": {
+    "@theia/core": "latest",
+    "@material-ui/core": "latest",
+    "@material-ui/lab": "latest",
+    "@types/react-datepicker": "latest",
+    "@types/react-select": "latest",
+    "react-hook-form": "latest"
+  },
+  "devDependencies": {
+    "rimraf": "latest",
+    "typescript": "latest"
+  },
+  "scripts": {
+    "prepare": "yarn run clean && yarn run build",
+    "clean": "rimraf lib",
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
+  "theiaExtensions": [
+    {
+      "frontend": "lib/browser/it-nelson-form-frontend-module"
+    }
+  ]
+}

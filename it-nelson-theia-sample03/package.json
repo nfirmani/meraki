@@ -1,0 +1,38 @@
+{
+  "name": "it-nelson-theia-sample03",
+  "keywords": [
+    "theia-extension"
+  ],
+  "version": "0.0.0",
+  "files": [
+    "lib",
+    "src"
+  ],
+  "dependencies": {
+    "@theia/core": "latest",
+    "axios": "^0.24.0",
+    "bootstrap": "^5.1.3",
+    "react-router-dom": "^6.0.2",  
+ 
+
+
+
+    "it-nelson-s01": "0.0.0"
+  },
+  "devDependencies": {
+    "rimraf": "latest",
+    "typescript": "latest"
+  },
+  "scripts": {
+    "prepare": "yarn run clean && yarn run build",
+    "clean": "rimraf lib",
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
+  "theiaExtensions": [
+    {
+      "frontend": "lib/browser/crud-frontend-module"
+    }
+  ]
+
+}

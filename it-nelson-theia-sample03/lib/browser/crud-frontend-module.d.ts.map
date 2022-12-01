@@ -1,0 +1,1 @@
+{"version":3,"file":"crud-frontend-module.d.ts","sourceRoot":"","sources":["../../src/browser/crud-frontend-module.ts"],"names":[],"mappings":"AASA,OAAO,EAAE,eAAe,EAAE,UAAU,EAAE,MAAM,WAAW,CAAC;AAQxD,OAAO,EAAE,gBAAgB,EAAE,MAAM,2BAA2B,CAAC;;AAG7D,wBAmBG;AAEH,wBAAgB,sBAAsB,CACpC,MAAM,EAAE,UAAU,CAAC,SAAS,GAC3B,gBAAgB,CAWlB"}
