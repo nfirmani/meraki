@@ -14,7 +14,7 @@ export class ItNelsonCrudContribution extends AbstractViewContribution<ItNelsonC
      *  of the widget including commands, menus, and keybindings.
      * 
      * We can pass `defaultWidgetOptions` which define widget properties such as 
-     * its location `area` (`main`, `left`, `right`, `bottom`), `mode`, and `ref`.
+     * its location `area` (`main`, `left`, `right`, `bottom`), `mode`, and `ref`. 
      * 
      */
     constructor() {
